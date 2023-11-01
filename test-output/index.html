@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-reservationSuite" class="navigator-link">
+              <span class="suite-name border-passed">reservationSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-reservationSuite" class="navigator-link ">
+                    <span>E:\sw testing\demoKsrtc\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-reservationSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-reservationSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-reservationSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-reservationSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-reservationSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-reservationSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-reservationSuite" class="hide-methods passed suite-reservationSuite"> (hide)</a> <!-- hide-methods passed suite-reservationSuite -->
+                      <a href="#" panel-name="suite-reservationSuite" class="show-methods passed suite-reservationSuite"> (show)</a> <!-- show-methods passed suite-reservationSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-reservationSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reservationSuite" title="tests.T03_SelectBusTest" class="method navigator-link" hash-for-method="TestBoardingDroppingPoint">TestBoardingDroppingPoint</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reservationSuite" title="tests.T03_SelectBusTest" class="method navigator-link" hash-for-method="TestClickPayment">TestClickPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reservationSuite" title="tests.T03_SelectBusTest" class="method navigator-link" hash-for-method="TestSelectAvailSeats">TestSelectAvailSeats</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reservationSuite" title="tests.T03_SelectBusTest" class="method navigator-link" hash-for-method="TestSelectSeatsBtn">TestSelectSeatsBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reservationSuite" title="tests.T03_SelectBusTest" class="method navigator-link" hash-for-method="TestSetCstInfo">TestSetCstInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reservationSuite" title="tests.T03_SelectBusTest" class="method navigator-link" hash-for-method="fillPassengerInfo(1, Ahmed, male, 25, GENERAL PUBLIC, INDIA)">fillPassengerInfo(1, Ahmed, male, 25, GENERAL PUBLIC, INDIA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reservationSuite" title="tests.T03_SelectBusTest" class="method navigator-link" hash-for-method="fillPassengerInfo(0, Shrouk, female, 20, GENERAL PUBLIC, INDIA)">fillPassengerInfo(0, Shrouk, female, 20, GENERAL PUBLIC, INDIA)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reservationSuite" title="tests.T04_PayMethodTest" class="method navigator-link" hash-for-method="paymentTest">paymentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-reservationSuite" title="tests.T02_SearchForBusTest" class="method navigator-link" hash-for-method="testSearch">testSearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-reservationSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-reservationSuite" class="panel reservationSuite">
+          <div class="suite-reservationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.T03_SelectBusTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestBoardingDroppingPoint">
+                  </a> <!-- TestBoardingDroppingPoint -->
+                  <span class="method-name">TestBoardingDroppingPoint</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestClickPayment">
+                  </a> <!-- TestClickPayment -->
+                  <span class="method-name">TestClickPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSelectAvailSeats">
+                  </a> <!-- TestSelectAvailSeats -->
+                  <span class="method-name">TestSelectAvailSeats</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSelectSeatsBtn">
+                  </a> <!-- TestSelectSeatsBtn -->
+                  <span class="method-name">TestSelectSeatsBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestSetCstInfo">
+                  </a> <!-- TestSetCstInfo -->
+                  <span class="method-name">TestSetCstInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillPassengerInfo(1, Ahmed, male, 25, GENERAL PUBLIC, INDIA)">
+                  </a> <!-- fillPassengerInfo(1, Ahmed, male, 25, GENERAL PUBLIC, INDIA) -->
+                  <span class="method-name">fillPassengerInfo</span>
+                  <span class="parameters">(1,Ahmed,male,25,GENERAL PUBLIC,INDIA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillPassengerInfo(0, Shrouk, female, 20, GENERAL PUBLIC, INDIA)">
+                  </a> <!-- fillPassengerInfo(0, Shrouk, female, 20, GENERAL PUBLIC, INDIA) -->
+                  <span class="method-name">fillPassengerInfo</span>
+                  <span class="parameters">(0,Shrouk,female,20,GENERAL PUBLIC,INDIA)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-reservationSuite-class-passed -->
+          <div class="suite-reservationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.T04_PayMethodTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="paymentTest">
+                  </a> <!-- paymentTest -->
+                  <span class="method-name">paymentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-reservationSuite-class-passed -->
+          <div class="suite-reservationSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.T02_SearchForBusTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch">
+                  </a> <!-- testSearch -->
+                  <span class="method-name">testSearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-reservationSuite-class-passed -->
+        </div> <!-- panel reservationSuite -->
+        <div panel-name="test-xml-reservationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\sw testing\demoKsrtc\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;reservationSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ReserveTests&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.T02_SearchForBusTest&quot;/&gt;
+      &lt;class name=&quot;tests.T03_SelectBusTest&quot;/&gt;
+      &lt;class name=&quot;tests.T04_PayMethodTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ReserveTests --&gt;
+&lt;/suite&gt; &lt;!-- reservationSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-reservationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for reservationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ReserveTests (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-reservationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for reservationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-reservationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for reservationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_reservationSuite');
+function tableData_reservationSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestClickPayment')
+data.setCell(0, 2, 'tests.T03_SelectBusTest')
+data.setCell(0, 3, 75337);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testSearch')
+data.setCell(1, 2, 'tests.T02_SearchForBusTest')
+data.setCell(1, 3, 49820);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'paymentTest')
+data.setCell(2, 2, 'tests.T04_PayMethodTest')
+data.setCell(2, 3, 10262);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestSelectAvailSeats')
+data.setCell(3, 2, 'tests.T03_SelectBusTest')
+data.setCell(3, 3, 5184);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'fillPassengerInfo')
+data.setCell(4, 2, 'tests.T03_SelectBusTest')
+data.setCell(4, 3, 4843);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestSelectSeatsBtn')
+data.setCell(5, 2, 'tests.T03_SelectBusTest')
+data.setCell(5, 3, 3661);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'fillPassengerInfo')
+data.setCell(6, 2, 'tests.T03_SelectBusTest')
+data.setCell(6, 3, 3183);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestSetCstInfo')
+data.setCell(7, 2, 'tests.T03_SelectBusTest')
+data.setCell(7, 3, 1581);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestBoardingDroppingPoint')
+data.setCell(8, 2, 'tests.T03_SelectBusTest')
+data.setCell(8, 3, 654);
+window.suiteTableData['reservationSuite']= { tableData: data, tableDiv: 'times-div-reservationSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-reservationSuite">
+              </div> <!-- times-div-reservationSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-reservationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for reservationSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-reservationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">4 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.T03_SelectBusTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.T04_PayMethodTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-reservationSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.T02_SearchForBusTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">testSearch</span>
+                <span class="method-start">322462 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.T03_SelectBusTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setDrive</span>
+                <span class="method-start">372774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestSelectSeatsBtn</span>
+                <span class="method-start">373009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDrive</span>
+                <span class="method-start">377087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestSelectAvailSeats</span>
+                <span class="method-start">377094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDrive</span>
+                <span class="method-start">382307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestBoardingDroppingPoint</span>
+                <span class="method-start">382312 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDrive</span>
+                <span class="method-start">382979 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestSetCstInfo</span>
+                <span class="method-start">382983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDrive</span>
+                <span class="method-start">456623 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillPassengerInfo(0, Shrouk, female, 20, GENERAL PUBLIC, INDIA)</span>
+                <span class="method-start">456625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDrive</span>
+                <span class="method-start">461471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillPassengerInfo(1, Ahmed, male, 25, GENERAL PUBLIC, INDIA)</span>
+                <span class="method-start">461473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setDrive</span>
+                <span class="method-start">464661 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestClickPayment</span>
+                <span class="method-start">464662 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.T04_PayMethodTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">paymentTest</span>
+                <span class="method-start">540006 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.T02_SearchForBusTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">550280 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

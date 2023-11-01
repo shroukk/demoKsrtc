@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [reservationSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ReserveTests(failed)">
+    <classes>
+      <class name="tests.T04_PayMethodTest">
+        <methods>
+          <include name="paymentTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.T04_PayMethodTest -->
+      <class name="tests.T02_SearchForBusTest">
+        <methods>
+          <include name="testSearch"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.T02_SearchForBusTest -->
+      <class name="tests.T03_SelectBusTest">
+        <methods>
+          <include name="fillPassengerInfo"/>
+          <include name="TestSelectSeatsBtn"/>
+          <include name="TestClickPayment"/>
+          <include name="TestSetCstInfo"/>
+          <include name="TestSelectAvailSeats"/>
+          <include name="setDrive"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="TestBoardingDroppingPoint"/>
+        </methods>
+      </class> <!-- tests.T03_SelectBusTest -->
+    </classes>
+  </test> <!-- ReserveTests(failed) -->
+</suite> <!-- Failed suite [reservationSuite] -->
