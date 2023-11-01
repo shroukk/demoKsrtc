@@ -33,7 +33,7 @@ The test data for the scenarios can be found in the src/resources/testdata direc
 3. Clicks login
 4. Assert that error message has been shown
     
-## login using correct credentails
+## Successful login
 1. Fills username and password with correct credentails 
 2. Agrees on terms
 3. Clicks login
