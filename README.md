@@ -1,7 +1,7 @@
 # demoKsrtc
 # Selenium WebDriver Project - KSRTC Bus Booking
 
-This project demonstrates a Selenium WebDriver test script using the Page Object Model (POM) design pattern to automate the booking process on the KSRTC website. using datadriven scenario
+This project demonstrates a Selenium WebDriver test script using the Page Object Model (POM) design pattern to automate the booking process on the KSRTC website. Applying data driven Testing (DDT).
 The script performs the following actions:
 
 1. Opens the KSRTC website.
